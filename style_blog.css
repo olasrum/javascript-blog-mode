@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(255, 125, 196);
+}
+
+
+h1, h3, h4 {
+  font-family: Segoe Print;
+  color: rgb(42, 41, 41);
+ 
+}
+
+ul {
+list-style: none;
+}
+
+h3 {
+font-size: 1.5em;
+}
+
+.main img {
+  height: auto;
+  width: 52%;
+  border: solid 4px rgb(42, 41, 41);
+}
+
+.content {
+  padding-top: 15px;
+}
+
+p, li {
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li {
+padding: 5px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.sidenav img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
